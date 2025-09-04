@@ -35,3 +35,31 @@ with col2:
     )
 
 st.divider()
+
+# --- QUICK NAVIGATION ---
+st.write("### 🔎 Explore My Portfolio")
+st.write("Use the sidebar to navigate through my portfolio, experience, skills, and contact information.")
+
+st.divider()
+
+# --- FEATURED PROJECTS (optional quick teaser) ---
+st.write("### 🚀 Featured Projects")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("**[March Metrics](https://your-streamlit-app1.streamlit.app)**")
+    st.caption("NCAA basketball analytics app with custom metrics.")
+    st.image("assets/screenshots/march_metrics.png")
+
+with col2:
+    st.markdown("**[NASCAR Predictor](https://your-streamlit-app2.streamlit.app)**")
+    st.caption("Predictive model for NASCAR fantasy points.")
+    st.image("assets/screenshots/nascar_predictor.png")
+
+st.divider()
+
+st.write("⬅️ Navigate with the sidebar to see more details.")
+
+
+
