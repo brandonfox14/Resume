@@ -3,7 +3,10 @@ import streamlit as st
 st.set_page_config(page_title="Portfolio", page_icon="📂", layout="wide")
 
 st.title("📂 Portfolio")
-st.write("A collection of professional and educational projects I've built and shared. Each app demonstrates applied data science, predictive modeling, and interactive design using Streamlit.")
+st.write(
+    "A collection of professional and educational projects I've built and shared. "
+    "Each app demonstrates applied data science, predictive modeling, and interactive design using Streamlit."
+)
 
 st.divider()
 
@@ -22,8 +25,8 @@ st.write(
 
 cap_col1, cap_col2 = st.columns(2)
 with cap_col1:
-    st.image("assets/screenshots/Mich1.png", use_container_width=True)
-    st.image("assets/screenshots/Mich2.png", use_container_width=True)
+    st.image("assets/Mich1.png", use_container_width=True)
+    st.image("assets/Mich2.png", use_container_width=True)
 with cap_col2:
     st.markdown("[🌐 Explore the Full App](https://michigancapstone-forresume.streamlit.app)")
 
@@ -48,13 +51,12 @@ st.write(
 
 mm_col1, mm_col2, mm_col3 = st.columns(3)
 with mm_col1:
-    st.image("assets/screenshots/March_Metrics1.png", use_container_width=True)
+    st.image("assets/March_Metrics1.png", use_container_width=True)
 with mm_col2:
-    st.image("assets/screenshots/March_Metrics2.png", use_container_width=True)
+    st.image("assets/March_Metrics2.png", use_container_width=True)
 with mm_col3:
-    st.image("assets/screenshots/March_Metrics3.png", use_container_width=True)
+    st.image("assets/March_Metrics3.png", use_container_width=True)
 
 st.markdown("[🌐 Explore the Full App](https://march-metrics-resume-app.streamlit.app)")
 
 st.divider()
-
