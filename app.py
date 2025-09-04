@@ -12,7 +12,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    profile_pic = Image.open("assets/Head_shot.jpg")
+    profile_pic = Image.open("assets/Head_shot.jpeg")
     st.image(profile_pic, width=180)
 
 with col2:
